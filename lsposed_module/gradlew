@@ -1,0 +1,30 @@
+#!/bin/sh
+
+#
+# Gradle wrapper script for Linux/macOS
+#
+
+# Determine the Java command to use
+if [ -n "$JAVA_HOME" ] ; then
+    if [ -x "$JAVA_HOME/bin/java" ] ; then
+        JAVACMD="$JAVA_HOME/bin/java"
+    fi
+else
+    JAVACMD="java"
+fi
+
+# Get the app home
+APP_HOME="`dirname "$0"`"
+APP_HOME="`( cd "$APP_HOME" && pwd )`"
+
+# Build the classpath
+CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
+
+# Download the gradle-wrapper.jar if it doesn't exist
+if [ ! -f "$CLASSPATH" ]; then
+    echo "Downloading gradle wrapper..."
+    mkdir -p "$APP_HOME/gradle/wrapper"
+    curl -sL -o "$CLASSPATH" "https://github.com/gradle/gradle/raw/v8.2.0/gradle/wrapper/gradle-wrapper.jar"
+fi
+
+exec "$JAVACMD" -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
