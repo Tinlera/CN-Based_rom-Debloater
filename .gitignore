@@ -1,0 +1,22 @@
+# Logs
+*.log
+debloat_log_*.txt
+
+# Reports
+cn_debloater_report_*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
