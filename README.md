@@ -235,13 +235,6 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 
 ---
 
-## 📞 İletişim
-
-- **Geliştirici:** Tinlera
-- **GitHub:** [@Tinlera](https://github.com/Tinlera)
-
----
-
 <div align="center">
 
 **CN-Based ROM Debloater** - *Çin bloatware'lerinden kurtulun!* 🧹
