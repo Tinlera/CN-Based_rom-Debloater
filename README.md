@@ -28,6 +28,13 @@
 - ♻️ **Geri Yükleme**: Kaldırılan uygulamaları geri yükleyebilirsiniz
 - 📄 **Raporlama**: JSON formatında detaylı rapor oluşturur
 
+### 🔧 İki Yöntem
+
+| Yöntem | Açıklama | Gereksinim |
+|--------|----------|------------|
+| **Python Script** | ADB üzerinden bloatware kaldırma | Python + ADB |
+| **LSPosed Modülü** | Sistem seviyesinde engelleme | Root + LSPosed |
+
 ---
 
 ## 🎯 Desteklenen ROM'lar

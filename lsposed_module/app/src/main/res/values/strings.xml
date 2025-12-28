@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CN Debloater</string>
+    <string name="app_description">Çin ROM Bloatware Engelleyici</string>
+    
+    <!-- UI Strings -->
+    <string name="module_enabled">Modül Aktif</string>
+    <string name="module_disabled">Modül Devre Dışı</string>
+    <string name="scanning">Taranıyor...</string>
+    <string name="no_bloatware">Bloatware bulunamadı</string>
+    <string name="blocked">Engellendi</string>
+    <string name="allowed">İzin Verildi</string>
+    
+    <!-- Menu -->
+    <string name="block_all">Tümünü Engelle</string>
+    <string name="unblock_all">Tümünü Aç</string>
+    <string name="block_telemetry">Sadece Telemetri</string>
+    <string name="rescan">Yeniden Tara</string>
+    <string name="settings">Ayarlar</string>
+    
+    <!-- Categories -->
+    <string name="cat_telemetry">📊 Telemetri</string>
+    <string name="cat_keyboard">⌨️ Klavye</string>
+    <string name="cat_game">🎮 Oyun</string>
+    <string name="cat_payment">💰 Ödeme</string>
+    <string name="cat_preinstalled">📱 Pre-installed</string>
+    <string name="cat_browser">🌐 Tarayıcı</string>
+    <string name="cat_media">🎵 Medya</string>
+    <string name="cat_other">📦 Diğer</string>
+    
+    <!-- Toasts -->
+    <string name="toast_blocked_all">Tüm bloatware engellendi</string>
+    <string name="toast_unblocked_all">Tüm engeller kaldırıldı</string>
+    <string name="toast_telemetry_blocked">Telemetri uygulamaları engellendi</string>
+    <string name="toast_reboot_required">Değişikliklerin uygulanması için yeniden başlatma gerekli</string>
+</resources>
